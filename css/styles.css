@@ -51,11 +51,7 @@ body {
   display: flex;
   align-items: center;
 }
-.site_logo {
 
-}
-.site_logo_img {
-}
 .sitenav {
   margin-left: auto;
   margin-right: 40px;
@@ -89,9 +85,10 @@ body {
 }
 .search:focus {
   border: none;
+  outline: none;
+
 }
-.main {
-}
+
 .site_hero {
   padding-bottom: 185px;
   padding-top: 170px;
@@ -133,6 +130,72 @@ body {
 
   color: #FFFFFF;
 }
+.feature_item {
+  display: flex;
+  list-style: none;
+  padding: 70px 125px;
+}
+.feature_heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+.feature_text {
+  width: 280px;
+  margin-right: 80px;
+}
+.feature_dots {
+  display: flex;
+}
+.dots {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  background-color: #DDDDDD;
+}
+.feature_link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: uppercase;
+  color:#EA625C;
+}
+.feature_link::before {
+  display: block;
+  content: "";
+  border-top: 3px solid #EA625C;
+  width: 60px;
+  margin-right: 10px;
+}
+.sport_info_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
 
+}
+.site_hero_content{
+ margin-top: 106px;
+}
 .footer {
+  background-image: url(../img/runners-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer_main {
+  margin-left: auto;
+  width: 700px;
+  padding: 240px 125px 239px 0px;
+}
+.footer_heading {
+  color: #FFFFFF;
+
+}
+.footer_text {
+  color: #FFFFFF;
+  line-height: 150%;
+  border-left: 3px solid #FFFFFF;
 }
